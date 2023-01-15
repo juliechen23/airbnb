@@ -1,5 +1,5 @@
 -- Can I see the AirBnb URL for all rentals that can accommodate my group of 16?
-
+SELECT listings.url, listings.accommodates FROM listings WHERE listings.accommodates=16;
 -- +---------------------------------------+--------------+
 -- | https://www.airbnb.com/rooms/1321332  | 16           |
 -- | https://www.airbnb.com/rooms/3172794  | 16           |
